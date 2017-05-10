@@ -1,0 +1,133 @@
+@font-face {
+	font-family: 'Edwardian';
+	src: url('fonts/Edwardian_Scr_ITC_TT.ttf');
+	format('truetype');
+}
+
+@font-face {
+	font-family: 'Billabong';
+	src: url('fonts/Billabong.ttf');
+	format('truetype');
+}
+
+
+.instagram{ 
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+
+  }
+
+
+.grad {
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FFEDBC, #ED4264); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFEDBC, #ED4264); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFEDBC, #ED4264); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #003262, #ffffff); /* Standard syntax */
+}
+
+.weed {
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(green, #ED4264); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(green, #ED4264); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(green, #ED4264); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, green, #ffffff); /* Standard syntax */
+}
+
+
+* {    margin: 0;
+  padding: 0;
+}
+
+body   {  background:#003262;}
+
+.bg {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: .25s;
+  pointer-events: none;
+}
+
+li
+{  list-style:none;
+   }
+
+li a
+    { display:block;
+      float:left;
+      width: 20%;
+      padding:25px 0;
+      text-align:center;
+      font-family:  Edwardian,'HeydingsCommonIconsRegular', Helvetida Neue;
+      font-weight:700;
+      letter-spacing:1px;
+      font-size:40px;
+      color:#fff;
+      background:#ccc;
+      text-decoration:none;
+      text-transform:lowercase;
+      text-shadow:2px 2px 0 rgba(0,0,0,.25);
+      transition:.25s;
+		}
+
+li a:hover  {
+      margin:-10px 0 0 0;
+}
+
+.menu
+    {  width:500px;
+       margin:60px auto 0 auto;
+       border-radius:10px;
+       overflow:hidden;
+		 }
+
+.menu li:nth-child(1) a {  background:pink;}
+.menu li:nth-child(2) a {  background:#003262;}
+.menu li:nth-child(3) a {  background:green;}
+.menu li:nth-child(4) a {  background:#ffffff ;}
+.menu li:nth-child(5) a {  background:#aad7ff ;}
+.menu li:nth-child(6) a {  background:#ffffff ;}
+.menu li:nth-child(7) a {  background:yellow ;}
+//.menu li:nth-child(8) a {  background:#cbf1ff ;}
+
+
+
+
+#home{text-align:center; font-size:80px; color:#ffffff;font-family:Edwardian;}
+
+
+.menu li:nth-child(1):hover ~ .bg  {
+  background: pink;
+
+}
+
+.menu li:nth-child(2):hover ~ .bg  {
+  background: #003262;
+
+}
+
+
+.menu li:nth-child(3):hover ~ .bg  {
+  background: green;
+
+}
+
+
+.menu li:nth-child(4):hover ~ .bg {
+  background: #ffffff;
+}
+.menu li:nth-child(5):hover ~ .bg {
+  background: #aad7ff;
+}
+.menu li:nth-child(6):hover ~ .bg {
+  background: #ffffff;
+}
+.menu li:nth-child(7):hover ~ .bg {
+  background: yellow;
+}
